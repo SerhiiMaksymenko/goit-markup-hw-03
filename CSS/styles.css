@@ -200,8 +200,23 @@ outline: 1px solid red;
 }
 
 /*фильтр-кнопки Portfolio*/
+.filter-list {
+    display: flex;
+    justify-content: center;
+        
+}
+.item-btn {
+    margin-left: 8px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.item-btn:nth-child(1) {
+    margin-left: 0;
+}
 
 .filter-btn {
+    padding: 6px 22px;
+    border-radius: 4px;
     color: var(--primary-text-color);
     background-color: #F5F4FA;
     font-weight: 500;
@@ -222,6 +237,8 @@ outline: 1px solid red;
     text-decoration: none;
 }
 .portfolio-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -229,6 +246,8 @@ outline: 1px solid red;
     color: var(--primary-text-color)
 }
 .portfolio-text {
+    outline: 1px solid tomato;
+    margin: 0;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;

@@ -10,10 +10,17 @@ body {
     
 }
 /*УТИЛИТЫ*/
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+p {
+    margin: 0;
+}
+.img {
+    display: block;
 }
 /*CONTAINER*/
 .container {
@@ -22,6 +29,7 @@ ul {
     margin-right: 0;
     padding-left: 15px;
     padding-right: 15px;
+
     outline: 1px solid teal;
 }
 
@@ -83,7 +91,7 @@ ul {
     background-color: #2F303A;
 }
 .hero-title {
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
@@ -109,8 +117,21 @@ ul {
 }
 
 /*Особенности index.html*/
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .qualities-title {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
@@ -125,7 +146,13 @@ ul {
     color: var(--secondary-text-color);
 }
 /*Чем мы занимаемся index.html*/
+.work {
+outline: 1px solid red;
+}
+
 .work-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -135,7 +162,13 @@ ul {
 }
 
 /*Команда index.html*/
+.team {
+    outline: 1px solid tomato;
+}
+
 .team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -143,8 +176,14 @@ ul {
     letter-spacing: 0.03em;
     color: var(--primary-text-color)
 }
+.item-border {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .item-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -152,6 +191,7 @@ ul {
     color: var(--primary-text-color)
 }
 .item-text {
+    padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -200,6 +240,9 @@ ul {
 }
 
 .footer-logo {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
@@ -210,6 +253,7 @@ ul {
 }
 address {
     font-style: normal;
+    margin: 0;
 }
 .footer-address {
     font-size: 14px;

@@ -24,53 +24,57 @@
     <!--Шапка-->
     <header class="header">
       <!--Верхняя панель-->
-      <div class="container">
+      <div class="container header-flex">
         <nav class="header-nav">
           <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
           <ul class="nav-list">
-            <li><a href="./index.html" class="nav-link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-            <li><a href="" class="nav-link">Контакты</a></li>
+            <li class="nav-item"><a href="./index.html" class="nav-link current">Студия</a></li>
+            <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
           </ul>
         </nav>
-      </div>
-      <div class="container">
         <ul class="header-list">
-          <li><a href="mailto:info@devstudio.com" class="header-post">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a></li>
+          <li class="header-item">
+            <a href="mailto:info@devstudio.com" class="header-post">info@devstudio.com</a>
+          </li>
+          <li class="header-item">
+            <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <!--Мэйн-->
     <main>
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="service-btn">Заказать услугу</button>
-      </section>
+      <div class="container">
+        <section class="hero">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="service-btn">Заказать услугу</button>
+        </section>
+      </div>
       <!--Особенности-->
       <div class="container">
         <section class="qualities">
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="qualities-list">
-            <li>
+            <li class="qualities-item">
               <h3 class="qualities-title">Внимание к деталям</h3>
               <p class="qualities-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="qualities-item">
               <h3 class="qualities-title">Пунктуальность</h3>
               <p class="qualities-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="qualities-item">
               <h3 class="qualities-title">Планирование</h3>
               <p class="qualities-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="qualities-item">
               <h3 class="qualities-title">Современные технологии</h3>
               <p class="qualities-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.

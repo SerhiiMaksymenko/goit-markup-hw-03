@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
-    
+       
 }
 /*УТИЛИТЫ*/
 
@@ -25,16 +25,37 @@ p {
 /*CONTAINER*/
 .container {
     width: 1200px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 
-    outline: 1px solid teal;
+    outline: 2px solid red;
 }
 
 /*шапка*/
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+}
 
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+.header-list {
+    display: flex;
+    margin-left: auto;
+}
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
 .nav-link {
     color: var(--primary-text-color);
     text-decoration: none;
@@ -74,6 +95,7 @@ p {
 }
 
 .logo {
+    margin-right: 93px;
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
@@ -129,6 +151,14 @@ p {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.qualities-list {
+    display: flex;
+   
+}
+.qualities-item {
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+}
 .qualities-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -146,9 +176,6 @@ p {
     color: var(--secondary-text-color);
 }
 /*Чем мы занимаемся index.html*/
-.work {
-outline: 1px solid red;
-}
 
 .work-title {
     margin-top: 0;
@@ -162,9 +189,6 @@ outline: 1px solid red;
 }
 
 /*Команда index.html*/
-.team {
-    outline: 1px solid tomato;
-}
 
 .team-title {
     margin-top: 0;
@@ -246,7 +270,6 @@ outline: 1px solid red;
     color: var(--primary-text-color)
 }
 .portfolio-text {
-    outline: 1px solid tomato;
     margin: 0;
     font-size: 16px;
     line-height: 1.88;

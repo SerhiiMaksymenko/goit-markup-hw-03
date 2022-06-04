@@ -32,6 +32,9 @@ p {
 
     outline: 2px solid red;
 }
+.section {
+    padding-bottom: 94px;
+}
 
 /*шапка*/
 header {
@@ -156,14 +159,21 @@ header {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.qualities {
+    padding-top: 94px;
+}
 .qualities-list {
     display: flex;
    
 }
-.qualities-item {
-    width: calc(100% / 4 - 30px);
-    margin: 15px;
+.qualities-list:last-child {
+    margin-right: -30px;
 }
+.qualities-item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-right: 30px;
+}
+
 .qualities-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -181,7 +191,9 @@ header {
     color: var(--secondary-text-color);
 }
 /*Чем мы занимаемся index.html*/
-
+.work-list {
+    display: flex;
+}
 .work-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -194,7 +206,9 @@ header {
 }
 
 /*Команда index.html*/
-
+.team-list {
+    display: flex;
+}
 .team-title {
     margin-top: 0;
     margin-bottom: 50px;

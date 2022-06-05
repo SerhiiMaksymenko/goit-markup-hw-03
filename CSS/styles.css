@@ -277,30 +277,30 @@ header {
 
 /*фильтр-кнопки Portfolio*/
 .filter-list {
-    display: flex;
-    justify-content: center;
-        
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
-.item-btn {
-    margin-left: 8px;
-    margin-top: 94px;
-    margin-bottom: 50px;
+.item-btn:not(:last-child) {
+    margin-right: 8px;
 }
-.item-btn:nth-child(1) {
-    margin-left: 0;
-}
-
 .filter-btn {
     padding: 6px 22px;
-    border-radius: 4px;
-    color: var(--primary-text-color);
-    background-color: #F5F4FA;
+        
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    cursor: pointer;
 
+    border-radius: 4px;
+    border: none;
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+.filter-btn.current {
+    color: var(--accent-text-color);
+    background-color: var(--primary-background-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {

@@ -24,20 +24,22 @@
     <!--Шапка-->
     <header class="header">
       <!--Верхняя панель-->
-      <div class="container">
+      <div class="container header-flex">
         <nav class="header-nav">
           <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
           <ul class="nav-list">
-            <li><a href="./index.html" class="nav-link">Студия</a></li>
-            <li><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
-            <li><a href="" class="nav-link">Контакты</a></li>
+            <li class="nav-item"><a href="./index.html" class="nav-link current">Студия</a></li>
+            <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
           </ul>
         </nav>
-      </div>
-      <div class="container">
         <ul class="header-list">
-          <li><a href="mailto:info@devstudio.com" class="header-post">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a></li>
+          <li class="header-item">
+            <a href="mailto:info@devstudio.com" class="header-post">info@devstudio.com</a>
+          </li>
+          <li class="header-item">
+            <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -46,15 +48,21 @@
       <div class="container">
         <section>
           <ul class="filter-list">
-            <li class="item-btn"><button type="button" class="filter-btn">Все</button></li>
-            <li class="item-btn"><button type="button" class="filter-btn">Веб-сайты</button></li>
-            <li class="item-btn"><button type="button" class="filter-btn">Приложения</button></li>
+            <li class="item-btn"><button type="button" class="filter-btn current">Все</button></li>
+            <li class="item-btn">
+              <button type="button" class="filter-btn">Веб-сайты</button>
+            </li>
+            <li class="item-btn">
+              <button type="button" class="filter-btn">Приложения</button>
+            </li>
             <li class="item-btn"><button type="button" class="filter-btn">Дизайн</button></li>
-            <li class="item-btn"><button type="button" class="filter-btn">Маркетинг</button></li>
+            <li class="item-btn">
+              <button type="button" class="filter-btn">Маркетинг</button>
+            </li>
           </ul>
           <!--Иконки-->
-          <ul class="portfolio-list">
-            <li>
+          <ul class="portfolio-list card-set">
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img
                   src="./images/acounts.jpg"
@@ -67,7 +75,7 @@
                 <p class="portfolio-text">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img
                   src="./images/basketball-players.jpg"
@@ -80,7 +88,7 @@
                 <p class="portfolio-text">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img
                   src="./images/restaurant-seafood.jpg"
@@ -93,7 +101,7 @@
                 <p class="portfolio-text">Приложение</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img
                   src="./images/headphones.jpg"
@@ -106,7 +114,7 @@
                 <p class="portfolio-text">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img
                   src="./images/post-boxes.jpg"
@@ -119,7 +127,7 @@
                 <p class="portfolio-text">Приложение</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img
                   src="./images/monitor.jpg"
@@ -132,7 +140,7 @@
                 <p class="portfolio-text">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img
                   src="./images/journal.jpg"
@@ -145,14 +153,14 @@
                 <p class="portfolio-text">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img src="./images/label.jpg" alt="label" width="370" class="img" />
                 <h2 class="portfolio-title">Проект LAB</h2>
                 <p class="portfolio-text">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="card-set-item">
               <a href="" class="portfolio-link">
                 <img src="./images/notebook.jpg" alt="notebook" width="370" class="img" />
                 <h2 class="portfolio-title">Growing Business</h2>

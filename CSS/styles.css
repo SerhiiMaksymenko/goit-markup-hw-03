@@ -26,6 +26,9 @@ p {
 img {
     display: block;
 }
+.link {
+    text-decoration: none;
+}
 /*CONTAINER*/
 .container {
     width: 1200px;
@@ -84,7 +87,6 @@ header {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -104,7 +106,6 @@ header {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -130,7 +131,6 @@ header {
 .logo {
     margin-right: 93px;
 
-    text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -363,14 +363,13 @@ header {
     padding-bottom: 60px;
 
     background-color: #2F303A;
+    outline: 3px solid red;
 }
 
 .footer-logo {
     display: inline-block;
-    margin-top: 60px;
     margin-bottom: 20px;
 
-    text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -393,7 +392,6 @@ address {
 }
 .footer-post,
 .footer-tel {
-    text-decoration: none;
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;

@@ -111,7 +111,7 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 
 .header-post:hover,
@@ -252,6 +252,9 @@ header {
 }
 
 /*КОМАНДА index.html*/
+.team {
+    background-color: #F5F4FA;
+}
 .team-list {
     --item: 4;
 }

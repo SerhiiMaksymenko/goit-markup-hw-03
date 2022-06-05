@@ -23,7 +23,7 @@ ul {
 p {
     margin: 0;
 }
-.img {
+img {
     display: block;
 }
 /*CONTAINER*/
@@ -33,8 +33,6 @@ p {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
-    outline: 2px solid red;
 }
 .section {
     padding-top: 94px;
@@ -53,9 +51,9 @@ p {
     margin: calc(var(--indent) / 2);
 }
 
-/*шапка*/
+/*ШАПКА*/
 header {
-    background-color: yellow;
+    border-bottom: 1px solid #ECECEC;
     
 }
 .header-flex {
@@ -85,12 +83,14 @@ header {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    color: var(--primary-text-color);
+
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
 }
 
 .nav-link:hover, 
@@ -103,12 +103,14 @@ header {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
     text-decoration: none;
-    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
+    color: var(--primary-text-color);
 }
 
 .header-post:hover,
@@ -127,12 +129,14 @@ header {
 
 .logo {
     margin-right: 93px;
+
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+
     color: #000000;
 }
 
@@ -143,6 +147,7 @@ header {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+
     background-color: #2F303A;
 }
 .hero-title {
@@ -151,14 +156,17 @@ header {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
     color: var(--accent-text-color);
 }
+
 /*кнопка заказать услугу index.html*/
 .service-btn {
     display: block;
@@ -206,17 +214,20 @@ header {
 .qualities-title {
     margin-top: 0;
     margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
     color: var(--primary-text-color)
 }
 .qualities-text {
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
+
     color: var(--secondary-text-color);
 }
 /*Чем мы занимаемся index.html*/
@@ -230,11 +241,13 @@ header {
 .work-title {
     margin-top: 0;
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--primary-text-color)
 }
 
@@ -245,11 +258,13 @@ header {
 .team-title {
     margin-top: 0;
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--primary-text-color)
 }
 .item-border {
@@ -260,26 +275,30 @@ header {
 .item-title {
     margin-top: 30px;
     margin-bottom: 10px;
+
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--primary-text-color)
 }
 .item-text {
     padding-bottom: 30px;
+
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--secondary-text-color);
 }
 
 /*фильтр-кнопки Portfolio*/
 .filter-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 .item-btn:not(:last-child) {
     margin-right: 8px;
@@ -308,6 +327,12 @@ header {
     background-color: var(--primary-background-color);
 }
 /*иконки Portfolio*/
+.portfolio-border {
+    padding: 20px 24px;
+
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
 
 .portfolio-link {
     text-decoration: none;
@@ -315,21 +340,28 @@ header {
 .portfolio-title {
     margin-top: 20px;
     margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
     color: var(--primary-text-color)
 }
 .portfolio-text {
     margin: 0;
+
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+
     color: var(--secondary-text-color);
 }
 /*Футер*/
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: #2F303A;
 }
 
@@ -337,12 +369,14 @@ header {
     display: inline-block;
     margin-top: 60px;
     margin-bottom: 20px;
+
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+
     color: var(--accent-text-color);
 }
 address {
@@ -350,9 +384,11 @@ address {
     margin: 0;
 }
 .footer-address {
+    margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
+
     color: var(--accent-text-color);
 }
 .footer-post,
@@ -361,6 +397,7 @@ address {
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
+
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -371,4 +408,7 @@ address {
 .footer-tel:hover,
 .footer-tel:focus {
     color: var(--primary-background-color);
+}
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
